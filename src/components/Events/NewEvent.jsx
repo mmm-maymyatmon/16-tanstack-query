@@ -7,6 +7,7 @@ import { createNewEvent } from "../../util/http.js";
 import ErrorBlock from "../UI/ErrorBlock.jsx";
 import { queryClient } from "../../util/http.js";
 
+
 export default function NewEvent() {
   const navigate = useNavigate();
 

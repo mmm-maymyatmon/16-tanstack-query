@@ -24,7 +24,6 @@ export async function fetchEvents({ signal, searchTerm }) {
   return events;
 }
 
-
 export async function createNewEvent(eventData) {
   const response = await fetch(`http://localhost:3000/events`, {
     method: 'POST',
